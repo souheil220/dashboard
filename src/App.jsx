@@ -2,7 +2,12 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
-import { Navbar, Footer, Sidebar, ThemeSettings } from "./Components";
+import {
+  Navbar,
+  Footer,
+  Sidebar,
+  ThemeSettings,
+} from "./components/components";
 import {
   Ecommerce,
   Orders,
@@ -20,12 +25,12 @@ import {
   ColorMapping,
   Pyramid,
   Stacked,
-} from "./Pages";
+} from "./pages/pages";
 
 import "./App.css";
 
 function App() {
-  const activeMenu = false;
+  const activeMenu = true;
   return (
     <div>
       <BrowserRouter>
