@@ -2,12 +2,7 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
-import {
-  Navbar,
-  Footer,
-  Sidebar,
-  ThemeSettings,
-} from "./components/components";
+import { Navbar, Footer, Sidebar, ThemeSettings } from "./Components";
 import {
   Ecommerce,
   Orders,
@@ -25,8 +20,8 @@ import {
   ColorMapping,
   Pyramid,
   Stacked,
-} from "./pages/pages";
-import { useStateContext } from "./context/ContextProvider";
+} from "./Pages";
+import { useStateContext } from "./Context/ContextProvider";
 import "./App.css";
 
 function App() {
