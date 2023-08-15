@@ -30,8 +30,7 @@ const Orders = () => {
         allowSorting
         allowFiltering
         allowPdfExport
-        
-        contextMenuClick={contextMenuItems}
+        contextMenuItems={contextMenuItems}
       >
         <ColumnsDirective>
           {ordersGrid.map((item, index) => (
